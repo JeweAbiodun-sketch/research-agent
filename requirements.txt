@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+openai
+pinecone-client
+cohere
+langchain
+langchain-openai
+langchain-core
+langgraph
+python-dotenv
+tiktoken

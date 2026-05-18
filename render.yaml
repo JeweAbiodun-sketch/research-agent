@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: research-agent
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python agent_server.py
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: PINECONE_API_KEY
+        sync: false
+      - key: COHERE_API_KEY
+        sync: false
+      - key: NOTION_TOKEN
+        sync: false
+      - key: NOTION_DB_ID
+        sync: false

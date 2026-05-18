@@ -1,0 +1,22 @@
+{
+  "company_name": "Anthropic",
+  "ticket_id": "RES-20260518-3008AFB1",
+  "initiated_at": "2026-05-18T16:55:04.150183+00:00",
+  "status": "acknowledged",
+  "errors": [],
+  "raw_research": null,
+  "research_chunks": null,
+  "pinecone_ids": null,
+  "retrieved_chunks": null,
+  "reranked_chunks": null,
+  "risk_score": null,
+  "opportunity_score": null,
+  "retry_count": 0,
+  "report_sections": null,
+  "notion_url": null,
+  "report_ready": false,
+  "workflow_path": [
+    "validate_input",
+    "acknowledge"
+  ]
+}
