@@ -1,6 +1,6 @@
 """
 agent_server.py
-FastAPI server that wraps the LangGraph research pipeline.
+FastAPI server that wraps the LangGraph research pipeline..
 n8n calls this server via HTTP POST /research.
 
 Run with:
