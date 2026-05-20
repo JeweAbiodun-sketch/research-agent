@@ -1,7 +1,7 @@
 fastapi
 uvicorn
 openai
-pinecone-client
+pinecone
 cohere
 langchain
 langchain-openai
@@ -9,6 +9,4 @@ langchain-core
 langgraph
 python-dotenv
 tiktoken
-
-'
-
+reportlab
