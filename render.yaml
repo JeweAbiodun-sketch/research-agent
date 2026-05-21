@@ -15,4 +15,5 @@ services:
         sync: false
       - key: NOTION_DB_ID
         sync: false
-      - k
+      - key: PUBLIC_BASE_URL
+        sync: false

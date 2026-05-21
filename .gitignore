@@ -1,2 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
 .env
-nnn
+.generated_reports/
+report_*.pdf
+report_*.md
+*.log
+*.tmp

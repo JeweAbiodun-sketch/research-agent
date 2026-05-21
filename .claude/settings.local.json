@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Invoke-RestMethod -Uri \"http://localhost:4040/api/tunnels\")"
+    ]
+  }
+}

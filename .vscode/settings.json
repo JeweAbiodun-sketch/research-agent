@@ -1,0 +1,5 @@
+{
+  "files.exclude": {
+    "**/.generated_reports": true
+  }
+}
