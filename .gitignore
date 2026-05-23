@@ -7,3 +7,7 @@ report_*.pdf
 report_*.md
 *.log
 *.tmp
+.vscode/
+.claude/
+docs/
+output/
