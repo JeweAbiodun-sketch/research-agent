@@ -64,6 +64,12 @@ TELEGRAM_CHAT_ID=...
 
 `NOTION_TOKEN`, `NOTION_DB_ID`, and Telegram variables are optional.
 
+If you are using the live Render deployment, set:
+
+```bash
+PUBLIC_BASE_URL=https://research-agent-2-sl8r.onrender.com
+```
+
 ## Local Setup
 
 1. Create and activate a virtual environment.
@@ -106,9 +112,15 @@ Example payload:
 
 If you are using a public tunnel or deployment, point n8n to the public `/research` URL for the running server.
 
+For your Render deployment, that endpoint is:
+
+```text
+https://research-agent-2-sl8r.onrender.com/research
+```
+
 ## Render Deployment
 
-The project is configured for Render as a Python web service.
+The project is configured for Render as a Python web service. 
 
 - Build command: `pip install -r requirements.txt`
 - Start command: `python agent_server.py`

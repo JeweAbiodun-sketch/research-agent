@@ -1644,7 +1644,7 @@ def save_report_node(state: AgentState) -> AgentState:
             if not logo_bytes:
                 continue
             try:
-                return RLImage(BytesIO(logo_bytes), width=3.0 * cm, height=3.0 * cm), logo_source
+                return RLImage(BytesIO(logo_bytes), width=2.35 * cm, height=2.35 * cm), logo_source
             except Exception:
                 continue
         return make_company_badge(company_name), None
@@ -1844,7 +1844,7 @@ def save_report_node(state: AgentState) -> AgentState:
         return chip
 
     def make_logo_panel(image_obj, source_text=None):
-        panel = [Spacer(1, 0.18 * cm), image_obj, Spacer(1, 0.18 * cm)]
+        panel = [Spacer(1, 0.22 * cm), image_obj, Spacer(1, 0.22 * cm)]
         logo_table = Table([[panel]], colWidths=[5.65 * cm])
         logo_table.setStyle(TableStyle([
             ("BACKGROUND", (0, 0), (-1, -1), white_bg),
